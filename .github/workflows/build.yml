@@ -1,5 +1,5 @@
 # Build workflow from EssentialsX/Essentials
-name: Build AutoBroadcast
+name: Build FabulouslyMOTD
 
 on:
   push:
