@@ -1,0 +1,23 @@
+name: FabulouslyMOTD
+version: '1.0'
+main: org.tsaitou.fabulouslyMOTD.FabulouslyMOTD
+api-version: '1.21'
+prefix: 'FMOTD'
+load: STARTUP
+author: Tsaitou7361
+description: A fabulously randomly MOTD experience
+
+commands:
+  FabulouslyMOTD:
+    usage: /<command>
+    aliases:
+      - FabulouslyMotd
+      - fabulouslymotd
+      - fmotd
+    permission: fmotd.admin
+    permission-message: You do not have the permission to use this command.
+
+permissions:
+  fmotd.admin:
+    default: op
+    description: Permission to use this plugin.
